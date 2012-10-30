@@ -1,5 +1,5 @@
 ﻿/*
-Copyright (c) 2003-2012, CKSource - Frederico Knabben. All rights reserved.
+Copyright (c) 2003-2011, CKSource - Frederico Knabben. All rights reserved.
 For licensing, see LICENSE.html or http://ckeditor.com/license
 */
 
@@ -23,12 +23,13 @@ CKEDITOR.dialog.add( 'checkspell', function( editor )
 			' style="display:none;color:red;font-size:16px;font-weight:bold;padding-top:160px;text-align:center;z-index:11;">' +
 		'</div><iframe' +
 			' src=""' +
-			' style="width:100%;background-color:#f1f1e3;"' +
+			' style="width:100%;background-color:#EBF2FF;"' +
 			' frameborder="0"' +
 			' name="' + iframeId + '"' +
 			' id="' + iframeId + '"' +
 			' allowtransparency="1">' +
 		'</iframe>';
+		console.log(iframeId);
 
 	var wscCoreUrl = editor.config.wsc_customLoaderScript || ( protocol +
 			'//loader.webspellchecker.net/sproxy_fck/sproxy.php'

@@ -453,6 +453,9 @@ class CkeditorConfig {
         'wsc_customerId',
         'wsc_customLoaderScript',
 
+		// undocumented config to set spellchecker language, allow it
+		'wsc_lang',
+
         // plugins/wysiwygarea/plugin.js
         'disableObjectResizing',
         'disableNativeTableHandles',
